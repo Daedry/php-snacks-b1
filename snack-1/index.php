@@ -57,7 +57,7 @@ $basket_matches = [
 
 <body>
 
-    <?php for ($i = 0; $i < 5; $i++) { ?>
+    <?php for ($i = 0; $i < count($basket_matches); $i++) { ?>
         <h5> 
             <?php echo  $basket_matches[$i]['home']; ?> - <?php echo $basket_matches[$i]['guest']; ?>
             | <?php echo $basket_matches[$i]['home_points']; ?>-<?php echo $basket_matches[$i]['guest_points']; ?>
