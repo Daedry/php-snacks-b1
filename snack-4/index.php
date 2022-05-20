@@ -32,14 +32,14 @@ function getRandomNumbers($min, $max, $length)
 </head>
 
 <body>
-<?php for($i = 0; $i < 15; $i++){ ?>
-    <p><strong>Number<?php echo $i; ?></strong>: <?php getRandomNumbers(0, 100, 15) ?></p>
-
-<?php } ?>
-
-
-
-
+    <?php for ($i = 0; $i < 15; $i++) { ?>
+        <p>
+            <strong>
+                Number<?php echo $i; ?>
+            </strong>:
+            <?php getRandomNumbers(0, 100, 15) ?>
+        </p>
+    <?php } ?>
 </body>
 
 </html>
