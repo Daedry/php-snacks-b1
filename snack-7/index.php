@@ -87,7 +87,7 @@ function sumNumbers($votes, $length)
     }
     // var_dump($sum);
     $lastSum = $sum / $length;
-    return number_format($lastSum, 2);
+    return number_format($lastSum, 0);
 };
 
 ?>
